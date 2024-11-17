@@ -1,0 +1,16 @@
+﻿<Window x:Class="ImageViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ImageViewer" 
+        Title="Просмотр изображений" Height="550" Width="630">
+    <Grid>
+        <WrapPanel>
+            <local:ImageRotator x:Name="imageRotator1"/>
+            <local:ImageRotator x:Name="imageRotator2"/>
+            <local:ImageRotator x:Name="imageRotator3"/>
+            <local:ImageRotator x:Name="imageRotator4"/>
+            <local:ImageRotator x:Name="imageRotator5"/>
+            <local:ImageRotator x:Name="imageRotator6"/>
+        </WrapPanel>
+    </Grid>
+</Window>
